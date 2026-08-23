@@ -31,7 +31,7 @@ section + section {
 }
 
 ul {
-  padding-left: 35px;
+  padding-left: 30px;
 }
 #about p + p {
   margin-top: 12px;
@@ -51,3 +51,8 @@ h1, h2{
     margin-bottom: 4px;
     line-height: 150%;
 }
+footer {color: #bebab9;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 48px;   
+}   
