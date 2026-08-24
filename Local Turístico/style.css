@@ -1,10 +1,21 @@
 * {
-    font-family: 'open sans', sans-serif;
-    p {
-        color: #333333;
-    }
+    font-family: 'Open Sans', sans-serif;
 }
-
+body {
+    background-color: rgb(200, 201, 201);
+    background: linear-gradient(
+        to bottom,
+        #f3f2cd,
+        #d4d4d4,
+        #f3f2cd
+    );
+}
+img{
+    border-radius: 16px;
+}
+p {
+    color: #333333;
+}
 #container > header p {
     margin-top: 89px;
     margin-bottom: 0%;
@@ -15,6 +26,7 @@
 }
 #container {
     width: 80%;
+    max-width: 1120px;
     margin: 0 auto;
 }
 hr {
@@ -35,8 +47,17 @@ hr {
 .familias{
     color: rgb(218, 0, 91);
 }
-.orcamento{
-    color: orange;
+.fotografia{
+    color: rgb(190, 124, 1);
+}
+.natureza{
+    color: rgb(0, 141, 0);
+}
+.aventura{
+    color: rgb(55, 119, 175);
+}
+.trilhas{
+    color: rgb(187, 175, 1);
 }
 }
 h3{
@@ -46,6 +67,11 @@ h3{
     margin-top: 64px;
 }
 #description p{
+    color: rgb(34, 34, 34);
+    text-align: center;
+    font-style: italic;
+}
+#Final p{
     color: rgb(34, 34, 34);
     text-align: center;
     font-style: italic;
